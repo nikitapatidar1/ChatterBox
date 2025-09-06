@@ -1,0 +1,45 @@
+.chat-window {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #202c33;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #d1d7db;
+}
+
+.chat-actions {
+  display: flex;
+  gap: 20px;
+  color: #aebac1;
+}
+
+.chat-actions i {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.contact-status {
+  color: #8696a0;
+  font-size: 13px;
+}
+
+.messages-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

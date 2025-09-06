@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary: #128C7E;
+  --primary-dark: #075E54;
+  --secondary: #25D366;
+  --light: #DCF8C6;
+  --dark: #0a1e29;
+  --gray: #e6e6e6;
+  --text-dark: #4a4a4a;
+  --text-light: #ffffff;
+  --online: #25D366;
+  --offline: #999;
+  --typing: #128C7E;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.auth-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+.auth-divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.auth-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #ddd;
+}
+
+.auth-divider span {
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.auth-link {
+  margin-top: 15px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.otp-btn {
+  background-color: #6c757d;
+}
+
+.otp-btn:hover {
+  background-color: #5a6268;
+}
+/* Existing styles के साथ निम्न styles add करें */
+
+.main-content {
+  padding-top: 60px; /* Navigation bar की height के equal */
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+/* अन्य existing styles */
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #00a884;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #00a884;
+  margin: 0;
+  padding: 0;
+}
